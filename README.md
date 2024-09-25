@@ -2,17 +2,17 @@
 
 # Week 8 Quiz
 
-### Part 1
+## Part 1 - Imaging Technique Inspiration
 
 I intend to extend the ‘Wheels of Fortune’ artwork by Pacita Abad for the creative coding major project by incorporating animation. I find the pointillism imaging technique particularly suitable, especially La Baie (Saint-Tropez) by Paul Signac. His use of unblended strokes to illustrate the scenery creates a blurred effect from afar which can be further manipulated to reach the goal of animating the artwork. I intend to use this technique by illustrating larger shapes using small dots and creating motion by changing the colour of the dots and shifting it’s position. 
 
 ![Image of La Baie](assets/artwork_inspo.webp)
 
-### Part 2
+## Part 2 - Coding Technique Exploration
 
 Object-oriented programming (OOP) particularly the Decorator Pattern coding would be ideal for implementing the animation of pointillism. OOP relies on the concept of class and objects and [Decorator Pattern](https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript) is a type of structural design pattern in OOP that allows you to add in new properties to an existing object (dots) without changing its structure. This could be particularly useful in facilitating the animation effect as it gives the flexibility to implement dots in different positions, sizes, and colours. Here is an example of how Decorator Pattern in OOP can be used to create animated pointillism art. 
 
-#### Decorator Pattern Code Implementation Example
+### Decorator Pattern Code Implementation Example 
 
 ```
 class Coffee {
