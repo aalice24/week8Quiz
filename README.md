@@ -10,3 +10,52 @@ I intend to extend the ‘Wheels of Fortune’ artwork by Pacita Abad for the cr
 
 ### Part 2
 
+Object-oriented programming (OOP) particularly the Decorator Pattern coding would be ideal for implementing the animation of pointillism. OOP relies on the concept of class and objects and [Decorator Pattern](https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript) is a type of structural design pattern in OOP that allows you to add in new properties to an existing object (dots) without changing its structure. This could be particularly useful in facilitating the animation effect as it gives the flexibility to implement dots in different positions, sizes, and colours. Here is an example of how Decorator Pattern in OOP can be used to create animated pointillism art. 
+
+#### Decorator Pattern Code Implementation Example
+
+```
+class Coffee {
+  cost() {
+    return 5; // Base cost of a regular coffee
+  }
+}
+Now, you want to add decorators to your coffee to customize it with additional options, such as milk and sugar:
+
+javascript
+Copy code
+class MilkDecorator {
+  constructor(coffee) {
+    this.coffee = coffee;
+  }
+
+  cost() {
+    return this.coffee.cost() + 2; // Adding the cost of milk
+  }
+}
+
+class SugarDecorator {
+  constructor(coffee) {
+    this.coffee = coffee;
+  }
+
+  cost() {
+    return this.coffee.cost() + 1; // Adding the cost of sugar
+  }
+}
+
+const regularCoffee = new Coffee();
+const coffeeWithMilk = new MilkDecorator(regularCoffee);
+const coffeeWithMilkAndSugar = new SugarDecorator(coffeeWithMilk);
+
+console.log(regularCoffee.cost()); // Output: 5
+console.log(coffeeWithMilk.cost()); // Output: 7
+console.log(coffeeWithMilkAndSugar.cost()); // Output: 8
+```
+
+
+
+
+
+
+
