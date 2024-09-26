@@ -10,7 +10,7 @@ I intend to extend the ‘Wheels of Fortune’ artwork by Pacita Abad for the cr
 
 ## Part 2 - Coding Technique Exploration
 
-Object-oriented programming (OOP) particularly the Decorator Pattern coding would be ideal for implementing the animation of pointillism. OOP relies on the concept of class and objects and [Decorator Pattern](https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript) is a type of structural design pattern in OOP that allows you to add in new properties to an existing object (dots) without changing its structure. This could be particularly useful in facilitating the animation effect as it gives the flexibility to implement dots in different positions, sizes, and colours. Here is an example of how Decorator Pattern in OOP can be used to create animated pointillism art. 
+Object-oriented programming (OOP), particularly the Decorator Pattern, would be ideal for implementing the animation of pointillism. OOP relies on the concept of class and objects. [Decorator Pattern](https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript) is a type of structural design pattern in OOP that allows you to add new properties to an existing object (dots) without changing its structure. This is useful in facilitating the [animation](https://medium.com/@shiny.shubham/unlocking-the-power-of-the-decorator-pattern-f25594bc9ed5#:~:text=Other%20Common%20Use%20Cases%3A) effect as it gives the flexibility to implement dots in different positions, sizes, and colours. It also promotes reusability which can enable the layering of more complex animation effects. The code example below outlines the logic of the Decorator Pattern, demonstrating its opportunity to facilitate animation.
 
 ### Decorator Pattern Code Example 
 
@@ -59,7 +59,9 @@ Berry, E. (2023, August 24). Pointillism and its Legacy: 8 Examples of this Maxi
 
 Gillis, A. S., & Lewis, S. (2024, June 14). object-oriented programming (OOP). App Architecture. https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP 
 
-Merced, A. (2023, November 26). OOP design patterns in Javascript. DEV Community. https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript
+Merced, A. (2023, November 26). OOP design patterns in Javascript. DEV Community. https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript 
+
+Shubham. (2023, June 14). Introduction to the Decorator Design Pattern | Medium. Medium. https://medium.com/@shiny.shubham/unlocking-the-power-of-the-decorator-pattern-f25594bc9ed5#:~:text=Other%20Common%20Use%20Cases%3A
 
 
 
