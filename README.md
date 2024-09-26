@@ -12,7 +12,7 @@ I intend to extend the ‘Wheels of Fortune’ artwork by Pacita Abad for the cr
 
 Object-oriented programming (OOP) particularly the Decorator Pattern coding would be ideal for implementing the animation of pointillism. OOP relies on the concept of class and objects and [Decorator Pattern](https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript) is a type of structural design pattern in OOP that allows you to add in new properties to an existing object (dots) without changing its structure. This could be particularly useful in facilitating the animation effect as it gives the flexibility to implement dots in different positions, sizes, and colours. Here is an example of how Decorator Pattern in OOP can be used to create animated pointillism art. 
 
-### Decorator Pattern Code Implementation Example 
+### Decorator Pattern Code Example 
 
 ```
 class Coffee {
@@ -52,6 +52,14 @@ console.log(regularCoffee.cost()); // Output: 5
 console.log(coffeeWithMilk.cost()); // Output: 7
 console.log(coffeeWithMilkAndSugar.cost()); // Output: 8
 ```
+
+## References
+
+Berry, E. (2023, August 24). Pointillism and its Legacy: 8 Examples of this Maximalist Technique. TheCollector. https://www.thecollector.com/what-is-pointillism/ 
+
+Gillis, A. S., & Lewis, S. (2024, June 14). object-oriented programming (OOP). App Architecture. https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP 
+
+Merced, A. (2023, November 26). OOP design patterns in Javascript. DEV Community. https://dev.to/alexmercedcoder/oop-design-patterns-in-javascript-3i98#decorator-pattern-in-javascript
 
 
 
